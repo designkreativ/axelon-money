@@ -49,7 +49,7 @@
 
 
 
-/* Fonts */
+/* Failed Fonts */
 
 /* @font-face {
   font-family: supreme-thin;
@@ -69,7 +69,7 @@
   src: url("../fonts/Supremell/SupremeLL-Regular.otf");
 } */
 
-@font-face {
+/* @font-face {
   font-family: supreme-bold;
   src: url("../fonts/Supremell/SupremeLL-Bold.otf");
-}
+} */

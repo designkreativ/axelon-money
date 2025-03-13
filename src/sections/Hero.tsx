@@ -11,7 +11,7 @@ export const Hero = () => {
             <p className="btn btn-secondary text-xs px-3 rounded-xl font-normal">
               Available for Download
             </p>
-            <h1 className="font-[supreme-bold] text-5xl md:text-7xl  tracking-tight bg-gradient-to-b from-black to-[var(--primary-40)] text-transparent bg-clip-text mt-6 pb-4 leading-14 md:leading-20">
+            <h1 className="font-bold text-5xl md:text-7xl  tracking-tight bg-gradient-to-b from-black to-[var(--primary-40)] text-transparent bg-clip-text mt-6 pb-4 leading-14 md:leading-20">
               Change The Way You Use Your Money
             </h1>
             <p className="text-xl text-[var(--primary-10)] mt-6">
