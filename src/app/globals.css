@@ -1,7 +1,7 @@
 @import "tailwindcss";
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 
 
@@ -31,11 +31,7 @@
 }
 
 @layer components {
-  .container {
-    @apply max-w-6xl;
-    /* @apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1536px]; */
-    /* @apply min2xl:max-w-[1536px]; */
-  }
+  
   .btn {
     @apply px-6 py-2 rounded-full  font-medium inline-flex items-center justify-center tracking-tight;
   }
@@ -55,7 +51,7 @@
 
 /* Fonts */
 
-@font-face {
+/* @font-face {
   font-family: supreme-thin;
   src: url("../fonts/Supremell/SupremeLL-Thin.otf");
 }
@@ -71,7 +67,7 @@
 @font-face {
   font-family: supreme-regular;
   src: url("../fonts/Supremell/SupremeLL-Regular.otf");
-}
+} */
 
 @font-face {
   font-family: supreme-bold;
