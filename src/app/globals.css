@@ -1,5 +1,25 @@
 @import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-2xl font-medium inline-flex items-center justify-center tracking-tight;
+  }
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+  .btn-text {
+    @apply text-black bg-transparent;
+  }
+  .btn-secondary {
+    @apply text-black bg-transparent border border-b-neutral-300
+  }
+}
+
+
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,10 +37,6 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
