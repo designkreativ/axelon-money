@@ -6,16 +6,16 @@ import ArrowRight from "@/assets/arrow-right.svg";
 export const Header = () => {
   return (
     <header className="sticky top-0 backdrop-blur-sm z-20">
-      <div className="flex justify-center items-center py-2 bg-black text-white gap-3">
-        <p className="text-white/60 hidden md:block ">
-          Steamline your workflow and boost your productivity
+      <div className="flex justify-center items-center py-2 bg-[var(--primary-10)] text-white gap-2">
+        <p className="text-white/60 hidden md:block text-sm">
+          Do you want to Make the most of your money?
         </p>
         <div className="flex items-center gap-1">
-          <p>Get started for Free</p>
+          <p className="text-sm">Get started for today</p>
           <Image
             src={ArrowRight}
             alt="Arrow"
-            className=" h-4 w-4 inline-flex"
+            className=" h-4 w-4 inline-flex dark:invert"
           />
         </div>
       </div>
@@ -35,8 +35,8 @@ export const Header = () => {
               <a href="#">About</a>
             </div>
 
-            <div className="hidden md:flex ">
-              <button className="btn">Login</button>
+            <div className="hidden md:flex gap-2">
+              <button className="btn btn-secondary">Login</button>
               <button className="btn btn-primary">Signup</button>
             </div>
           </div>
