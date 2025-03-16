@@ -13,11 +13,11 @@ export const Hero = () => {
       <div className="container max-w-8xl mx-auto px-8 ">
         <div className="md:flex items-center">
           <div className="md:w-[475px] lg:w-[575px]">
-            <p className="btn btn-secondary text-xs px-3 rounded-xl font-normal">
+            <p className="btn btn-secondary text-xs px-3 py-0.5 rounded-xl font-normal gap-2"><span className="text-2xl text-green-500">•</span>
               Available for Download
             </p>
             <div className={`${Supremell.className}`}>
-              <h1 className="font-bold text-5xl md:text-7xl  tracking-tight bg-gradient-to-b from-black to-[var(--primary-40)] text-transparent bg-clip-text mt-6 pb-4 leading-14 md:leading-20">
+              <h1 className="font-bold text-5xl md:text-7xl  tracking-tight bg-gradient-to-b from-[var(--shades-10)] to-[var(--primary-40)] text-transparent bg-clip-text mt-6 pb-4 leading-14 md:leading-20">
                 Change The Way You Use Your Money
               </h1>
             </div>
