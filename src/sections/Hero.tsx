@@ -10,14 +10,14 @@ const Supremell = localFont({
 export const Hero = () => {
   return (
     <section className=" pb-20  md:pb-20 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,var(--primary-60),var(--primary-98)_80%)] overflow-x-clip">
-      <div className="container  mx-auto px-8 ">
+      <div className="container  wrapper max-w-[1320px] ">
         <div className="md:flex items-center">
           <div className="md:w-[475px] lg:w-[575px]">
             <p className="btn btn-secondary text-xs px-3 py-0.5 rounded-xl font-normal gap-2"><span className="text-2xl text-green-500">•</span>
               Available for Download
             </p>
             <div className={`${Supremell.className}`}>
-              <h1 className="font-bold text-5xl md:text-7xl  tracking-tight bg-gradient-to-b from-[var(--shades-10)] to-[var(--primary-40)] text-transparent bg-clip-text mt-6 pb-4 leading-14 md:leading-20">
+              <h1 className=" text-5xl md:text-7xl  tracking-tight text-gradient mt-6 pb-4 ">
                 Change The Way You Use Your Money
               </h1>
             </div>

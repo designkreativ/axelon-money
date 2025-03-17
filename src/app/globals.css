@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+
+
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
@@ -31,6 +34,9 @@
 }
 
 @layer components {
+  .wrapper {
+    @apply mx-auto px-4;
+  }
   
   .btn {
     @apply px-6 py-2 rounded-full  font-medium inline-flex items-center justify-center tracking-tight;
@@ -44,6 +50,10 @@
   .btn-secondary {
     @apply text-black bg-transparent border border-neutral-300;
   }
+  .text-gradient {
+    @apply bg-gradient-to-b from-[var(--shades-10)] to-[var(--primary-40)] text-transparent bg-clip-text leading-14 md:leading-20;
+  }
+  
   .logo-ticker-image {
     @apply h-6 md:h-8 w-auto ;
   }

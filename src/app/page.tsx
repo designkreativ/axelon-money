@@ -1,6 +1,9 @@
 import {Hero} from "@/sections/Hero";
 import { Header} from "@/sections/Header";
 import { Sponcer } from '@/sections/Sponcer'
+import { Product1 } from "@/sections/Product1";
+import { Product2 } from "@/sections/Product2";
+
 
 
 
@@ -11,6 +14,8 @@ export default function Home() {
     <Header />
     <Hero />
     <Sponcer />
+    <Product1/>
+    <Product2/>
     </div>
   );
 }

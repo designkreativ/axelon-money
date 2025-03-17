@@ -20,7 +20,7 @@ export const Header = () => {
         </div>
       </div>
       <div className="py-6">
-        <div className="container px-8 mx-auto ">
+        <div className="container wrapper max-w-[1320px] ">
           <div className="flex justify-between items-center ">
             <Image src={Logo} alt="Axelon logo" height={40} width={135} />
             <Image
