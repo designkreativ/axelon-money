@@ -9,8 +9,8 @@ const Supremell = localFont({
 
 export const Hero = () => {
   return (
-    <section className=" pb-20  md:pb-20 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,var(--primary-60),var(--primary-100)_80%)] overflow-x-clip">
-      <div className="container max-w-8xl mx-auto px-8 ">
+    <section className=" pb-20  md:pb-20 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,var(--primary-60),var(--primary-98)_80%)] overflow-x-clip">
+      <div className="container  mx-auto px-8 ">
         <div className="md:flex items-center">
           <div className="md:w-[475px] lg:w-[575px]">
             <p className="btn btn-secondary text-xs px-3 py-0.5 rounded-xl font-normal gap-2"><span className="text-2xl text-green-500">•</span>

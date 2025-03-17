@@ -44,6 +44,9 @@
   .btn-secondary {
     @apply text-black bg-transparent border border-neutral-300;
   }
+  .logo-ticker-image {
+    @apply h-6 md:h-8 w-auto ;
+  }
 }
 
 
