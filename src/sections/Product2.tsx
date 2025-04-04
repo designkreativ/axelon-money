@@ -20,7 +20,7 @@ export const Product2 = () => {
           </p>
 
           <div className={`${Supremell.className}`}>
-            <h2 className=" text-gradient text-3xl md:text-5xl tracking-tight mt-2 pb-4 lg:max-w-md">
+            <h2 className=" text-gradient text-3xl md:text-5xl tracking-tight mt-2 pb-4 lg:max-w-md leading-15">
               Make your spend, Well spent
             </h2>
           </div>
@@ -31,7 +31,7 @@ export const Product2 = () => {
             with efficient tech enabled processes.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-2 overflow-x-clip">
           <Image className="not-md:w-full" src={ProductImage3} alt="Product Image 3" />
           <Image className="not-md:w-full" src={ProductImage4} alt="Product Image 3" />
           <Image className="not-md:w-full" src={ProductImage5} alt="Product Image 3" />

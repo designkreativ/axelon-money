@@ -25,7 +25,7 @@ export const Product1 = () => {
             savings and investments. Axelon helps you get more your money
           </p>
         </div>
-        <div className="flex flex-col md:flex-row  items-center justify-center gap-4">
+        <div className="flex flex-col md:flex-row  items-center justify-center gap-4 overflow-x-clip">
           <Image
             className="not-md:w-full "
             src={ProductImage1}
