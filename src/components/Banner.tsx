@@ -5,12 +5,12 @@ export const Banner = () => {
         <div className="flex flex-col gap-10 md:flex-row  ">
           <div className="flex-1 flex gap-8 md:gap-24">
             <div>
-              <h1 className="text-[4rem] md:text-[4.2rem] pb-2">$14B</h1>
-              <h3 className="text-lg">Funds and syndicates</h3>
+              <h1 className="text-[4rem] md:text-[4.5rem] lg:text-[6rem] pb-2">$14B</h1>
+              <h3 className="text-lg">Funds and Syndicates</h3>
             </div>
 
             <div>
-              <h1 className="text-[4rem] md:text-[4.2rem] pb-2">23K+</h1>
+              <h1 className="text-[4rem] md:text-[4.5rem] lg:text-[6rem] pb-2">23K+</h1>
               <h3 className="text-lg">Raised by active startups</h3>
             </div>
           </div>
