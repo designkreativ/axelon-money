@@ -15,7 +15,7 @@ export const Product2 = () => {
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10 pb-10 ">
           <div className=" flex flex-col items-start">
 
-          <p className="text-center px px-3 py-0.5 rounded-xl font-normal gap-2 border  border-neutral-300">
+          <p className="btn btn-alt">
             Try it now!
           </p>
 

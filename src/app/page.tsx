@@ -15,7 +15,7 @@ export default function Home() {
       <Product1 />
       <Product2 />
       <Banner />
-      {/* <Faqs /> */}
+      <Faqs />
     </div>
   );
 }
