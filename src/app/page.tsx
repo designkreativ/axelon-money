@@ -6,8 +6,8 @@ import { Product2 } from "@/components/Product2";
 import { Numbers } from "@/components/Numbers";
 import { Faqs } from "@/components/Faqs";
 import { Banner } from "@/components/Banner";
-import { Testimonials } from "@/components/Testimonials";
-import { Footer } from "@/components/Footer";
+// import { Testimonials } from "@/components/Testimonials";
+// import { Footer } from "@/components/Footer";
 
 
 export default function Home() {
