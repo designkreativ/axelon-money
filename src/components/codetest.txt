@@ -1,0 +1,11 @@
+<div className="mask-b-from-20% mask-b-to-80% bg-[url(../assets/phone_mockup.png)]"></div>
+
+<div className="bg-[url()]"></div>
+
+
+
+className="mask-b-from-20% mask-b-to-80% bg-[url(/img/mountains.jpg)]"
+
+src\assets\phone_mockup.png
+
+[url('../assets/phone_mockup.png')]

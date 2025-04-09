@@ -3,8 +3,12 @@ import { Header } from "@/components/Header";
 import { Sponcer } from "@/components/Sponcer";
 import { Product1 } from "@/components/Product1";
 import { Product2 } from "@/components/Product2";
-import { Banner } from "@/components/Banner";
+import { Numbers } from "@/components/Numbers";
 import { Faqs } from "@/components/Faqs";
+import { Banner } from "@/components/Banner";
+import { Testimonials } from "@/components/Testimonials";
+import { Footer } from "@/components/Footer";
+
 
 export default function Home() {
   return (
@@ -14,8 +18,11 @@ export default function Home() {
       <Sponcer />
       <Product1 />
       <Product2 />
-      <Banner />
+      <Numbers />
       <Faqs />
+      <Banner/>
+      {/* <Testimonials/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

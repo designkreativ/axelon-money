@@ -25,7 +25,7 @@ export const Product2 = () => {
             </h2>
           </div>
           </div>
-
+    
           <p className="flex-1 text-xl text-[var(--primary-10)] mt-2 lg:max-w-lg">
             Manages a diversified group of specialized private credit brands
             with efficient tech enabled processes.

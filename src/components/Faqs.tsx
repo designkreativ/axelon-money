@@ -6,6 +6,7 @@ const Supremell = localFont({
   src: "../font/supremell/SupremeLL-Bold.otf",
 });
 
+
 const questions = [
   {
     question: "How can  to add money to my account?",
