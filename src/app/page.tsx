@@ -23,6 +23,7 @@ export default function Home() {
       <Banner/>
       {/* <Testimonials/> */}
       {/* <Footer/> */}
+
     </div>
   );
 }
