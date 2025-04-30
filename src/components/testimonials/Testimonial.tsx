@@ -17,7 +17,7 @@ export const Testimonial = (props: TestimonialProps) => {
       <div className="flex flex-col gap-6 w-sm bg-white shadow-xl shadow-blue-900/2 p-6 rounded-4xl">
               <div className="flex items-center gap-5">
                 <Image
-                  className="object-fill rounded-[100px] w-20 h-20"
+                  className="object-fill rounded-[100px] w-15 h-15"
                   src={props.image}
                   alt="user"
       
