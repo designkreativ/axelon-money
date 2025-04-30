@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <div className="bg-[var(--primary-98)]">
       <Header />
-      {/* <Hero /> */}
-      {/* <Sponcer /> */}
-      {/* <Product1 /> */}
-      {/* <Product2 /> */}
-      {/* <Numbers /> */}
-      {/* <Faqs /> */}
-      {/* <Banner/> */}
+      <Hero />
+      <Sponcer />
+      <Product1 />
+      <Product2 />
+      <Numbers />
+      <Faqs />
+      <Banner/>
       <Testimonials/>
       {/* <Footer/> */}
 
