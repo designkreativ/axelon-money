@@ -6,7 +6,7 @@ import { Product2 } from "@/components/Product2";
 import { Numbers } from "@/components/Numbers";
 import { Faqs } from "@/components/Faqs";
 import { Banner } from "@/components/Banner";
-// import { Testimonials } from "@/components/Testimonials";
+import { Testimonials } from "@/components/Testimonials";
 // import { Footer } from "@/components/Footer";
 
 
@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <div className="bg-[var(--primary-98)]">
       <Header />
-      <Hero />
-      <Sponcer />
-      <Product1 />
-      <Product2 />
-      <Numbers />
-      <Faqs />
-      <Banner/>
-      {/* <Testimonials/> */}
+      {/* <Hero /> */}
+      {/* <Sponcer /> */}
+      {/* <Product1 /> */}
+      {/* <Product2 /> */}
+      {/* <Numbers /> */}
+      {/* <Faqs /> */}
+      {/* <Banner/> */}
+      <Testimonials/>
       {/* <Footer/> */}
 
     </div>

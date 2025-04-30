@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ["randomuser.me","img.freepik.com"],
+  },
+};
 export default nextConfig;
 
 // webpack: config => {

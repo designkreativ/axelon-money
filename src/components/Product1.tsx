@@ -12,7 +12,7 @@ export const Product1 = () => {
     <section>
       <div className="container wrapper max-w-[1320px]  py-24 ">
         <div className="max-w-[768px] mx-auto pb-10 md:pb-20 flex flex-col items-center">
-          <p className="text-center px px-3 py-0.5 rounded-xl font-normal gap-2 border  border-neutral-300">
+          <p className="text-center px-3 py-0.5 rounded-xl font-normal gap-2 border  border-neutral-300">
             Available for Download
           </p>
           <div className={`${Supremell.className}`}>

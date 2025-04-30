@@ -6,8 +6,6 @@ const Supremell = localFont({
   src: "../font/supremell/SupremeLL-Bold.otf",
 });
 
-{
-}
 export const Faqs = () => {
   return (
     <section>
