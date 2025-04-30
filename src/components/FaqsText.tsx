@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 
 import { useState } from "react";
 type FaqsTextProps = {
-  key: string;
+  key: number;
   question: string,
   answer: string
 }
