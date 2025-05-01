@@ -27,7 +27,7 @@ export const Testimonial = (props: TestimonialProps) => {
                   <h4 className="text-xl sm:text-2xl font-medium text-[var(--primary-20)]">
                     {props.name}
                   </h4>
-                  <p className="text-l sm:text-xl text-[var(--shades-50)]">
+                  <p className="text-l text-[var(--shades-50)]">
                     {props.title}
                   </p>
                 </div>
