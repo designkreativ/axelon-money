@@ -1,4 +1,3 @@
-import Image from "next/image";
 import userImage from "../assets/userImage.png";
 import localFont from "next/font/local";
 import { Testimonial } from "./testimonials/Testimonial";
