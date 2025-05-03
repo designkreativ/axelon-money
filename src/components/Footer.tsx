@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col gap-4 md:flex-row pb-20">
           <div className="flex-1 not-md:pb-10">
             <Image src={Logo} alt="Logo" />
-            <p className="pb-6 text-sm">
+            <p className="py-4 pr-10 text-sm">
               Subscribe to our newsletter for the latest updates on features and
               releases.
             </p>

@@ -7,7 +7,7 @@ export const footerData = [
       { name: "Join Accounts", url: "/account/join-accounts" },
       { name: "Crypto", url: "/account/crypto" },
       { name: "Freelance", url: "/account/freelance" },
-      { name: "Commodities", url: "/account/commodities" },
+    
     ],
   },
   {
