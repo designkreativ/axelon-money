@@ -35,7 +35,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center text-sm py-4 border-t border-t-white/20">
+        <div className="md:flex md:flex-row-reverse md:justify-between text-center text-sm py-4 border-t border-t-white/20">
           <div className="flex flex-row justify-center gap-6 pb-4 ">
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
