@@ -1,4 +1,4 @@
-export const faqsData = [
+export const FaqsData = [
   {
     id: 1,
     question: "How can  to add money to my account?",
