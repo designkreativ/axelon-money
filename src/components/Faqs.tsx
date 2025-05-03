@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import FaqsText from "@/components/FaqsText";
-import { FaqsData } from "@/data/FaqsData";
+import { faqsData } from "@/data/faqsData";
 
 const Supremell = localFont({
   src: "../font/supremell/SupremeLL-Bold.otf",
@@ -20,7 +20,7 @@ export const Faqs = () => {
             </div>
           </div>
           <div className="md:flex-1">
-            {FaqsData.map(({ id, question, answer }) => (
+            {faqsData.map(({ id, question, answer }) => (
               <FaqsText key={id} question={question} answer={answer} />
             ))}
           </div>

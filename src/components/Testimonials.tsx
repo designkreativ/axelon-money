@@ -30,6 +30,7 @@ export const Testimonials = () => {
           {testimonialsData.map(({ id, name, title, description }) => (
             <Testimonial
               key={id}
+              id={id}
               image={userImage}
               name={name}
               title={title}

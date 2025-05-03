@@ -7,7 +7,7 @@ import { Numbers } from "@/components/Numbers";
 import { Faqs } from "@/components/Faqs";
 import { Banner } from "@/components/Banner";
 import { Testimonials } from "@/components/Testimonials";
-// import { Footer } from "@/components/Footer";
+import { Footer } from "@/components/Footer";
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <Faqs />
       <Banner/>
       <Testimonials/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   );
