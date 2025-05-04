@@ -14,7 +14,7 @@ export const Footer = () => {
               releases.
             </p>
             <form action="submit" className=" flex ">
-              <input type="email"  placeholder="Enter Your Email" name="email" className="bg-[var(--primary-5)] p-4"/>
+              <input type="email"  placeholder="Enter Your Email" name="email" className="bg-[var(--primary-5)] p-4 mr-1"/>
               <input type="button" value="Subscribe" name="submit" className="bg-[var(--primary-15)] p-4"/>
             </form>
           </div>
