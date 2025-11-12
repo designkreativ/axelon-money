@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import { Testimonial } from "./testimonials/Testimonial";
 import { testimonialsData } from "./testimonials/testimonialsData";
 
-console.log(testimonialsData);
 
 const Supremell = localFont({
   src: "../font/supremell/SupremeLL-Bold.otf",

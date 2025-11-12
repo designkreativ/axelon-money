@@ -41,7 +41,7 @@ export const Footer = () => {
             <p>Terms of Use</p>
             <p>Disclosure</p>
           </div>
-          <p>copyright@2025.<span className="opacity-50"> dmmkreativ-axelon.v2</span></p>
+          <p>copyright@2025.<span className="opacity-50"> dmmkreativ-axelonmoney-v2</span></p>
         </div>
       </div>
     </section>
