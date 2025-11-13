@@ -20,13 +20,13 @@ export const Testimonial = (props: TestimonialProps) => {
             alt="user"
           />
           <div className="">
-            <h4 className="text-xl sm:text-2xl font-medium text-[var(--primary-20)]">
+            <h4 className="text-lg sm:text-xl font-medium text-[var(--primary-20)]">
               {props.name}
             </h4>
-            <p className="text-l text-[var(--shades-50)]">{props.title}</p>
+            <p className="text-md text-[var(--shades-50)]">{props.title}</p>
           </div>
         </div>
-        <p className=" text-l sm:text-xl text-[var(--shades-30)] mt-2 ">
+        <p className=" text-md sm:text-sm text-[var(--shades-30)] mt-2 ">
           {props.description}
         </p>
         <p className="tracking-widest">⭐⭐⭐⭐⭐</p>
